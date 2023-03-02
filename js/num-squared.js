@@ -5,7 +5,10 @@ const square = function( num ) {
   const numSquared = num * num;
   
   console.log(`${num} squared is ${numSquared}.`);
+
+  return `${num} squared is ${numSquared}.`
 };
+
 // Refactor the following code into a function so that it:
 // 1. accepts a the num variable as a parameter;
 
